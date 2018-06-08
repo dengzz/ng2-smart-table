@@ -7,8 +7,7 @@
   "typings": "./index.d.ts",
   "author": "akveo",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+http://akveo.github.io/ng2-smart-table.git"

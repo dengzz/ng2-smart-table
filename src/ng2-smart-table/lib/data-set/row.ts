@@ -61,7 +61,6 @@ export class Row {
     const defValue = (column as any).settings.defaultValue ? (column as any).settings.defaultValue : '';
     var value = this.getProperty(this.data, column.id);
     value = typeof value === 'undefined' ? defValue : value;
-    //const value = typeof this.data[column.id] === 'undefined' ? defValue : this.data[column.id];
     return new Cell(value, this, column, this._dataSet);
   }
 }
